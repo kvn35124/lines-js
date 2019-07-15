@@ -5,6 +5,7 @@ document.body.appendChild(btn);
 let btnText = document.createTextNode('Sing!');
 btn.appendChild(btnText);
 
+//added event listener
 
 
 btn.addEventListener('click', function () {
